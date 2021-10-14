@@ -40,7 +40,6 @@ dependencies {
 
     //ExoPlayer
     implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
-    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
 
     //ButterKnife
     implementation 'com.jakewharton:butterknife:10.2.3'

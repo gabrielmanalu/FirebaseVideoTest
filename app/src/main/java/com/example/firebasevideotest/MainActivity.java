@@ -31,9 +31,7 @@ import butterknife.ButterKnife;
 
 
 public class MainActivity extends AppCompatActivity implements IVideoLoadListener {
-//
-//    @BindView(R.id.shimmer_frame_layout)
-//    ShimmerFrameLayout mShimmerFrameLayout;
+
     @BindView(R.id.recycler_view)
     VideoPlayerRecyclerView video_player;
 
@@ -100,8 +98,7 @@ public class MainActivity extends AppCompatActivity implements IVideoLoadListene
         video_player.setMediaObjects(videoList);
         VideoPlayerRecyclerAdapter adapter = new VideoPlayerRecyclerAdapter(videoList, initGlide());
         video_player.setAdapter(adapter);
-//        mShimmerFrameLayout.stopShimmerAnimation();
-//        mShimmerFrameLayout.setVisibility(View.GONE);
+
     }
 
     private RequestManager initGlide() {
@@ -113,8 +110,6 @@ public class MainActivity extends AppCompatActivity implements IVideoLoadListene
 
     @Override
     public void onVideoLoadFailed(String message) {
-//        mShimmerFrameLayout.stopShimmerAnimation();
-//        mShimmerFrameLayout.setVisibility(View.GONE);
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
