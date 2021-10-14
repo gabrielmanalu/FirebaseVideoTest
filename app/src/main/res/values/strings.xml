@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseVideoTest</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+</resources>
