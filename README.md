@@ -10,16 +10,16 @@ Firebase Based Recyclerview Video Test. Video data is saved in JSON format in Fi
 
 ## Depedencies
  - ExoPlayer
- implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
+   - implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
 
  - ButterKnife
- implementation 'com.jakewharton:butterknife:10.2.3'
- annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+   - implementation 'com.jakewharton:butterknife:10.2.3'
+   - annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 
  - Glide
- implementation 'com.github.bumptech.glide:glide:4.12.0'
- annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+   - implementation 'com.github.bumptech.glide:glide:4.12.0'
+   - annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
  
  - FirebaseDatabase
- implementation 'com.google.firebase:firebase-database:20.0.2'
+   - implementation 'com.google.firebase:firebase-database:20.0.2'
 
